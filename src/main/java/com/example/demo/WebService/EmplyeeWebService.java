@@ -1,4 +1,4 @@
-package com.example.demo.Service;
+package com.example.demo.WebService;
 
 import com.example.demo.Entities.Employee;
 import io.swagger.annotations.Api;
@@ -6,7 +6,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,8 +16,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/rest")
-@Api(value = "Teach Guide Employee")
-public class emplyeeService {
+@Api(value = "Teach Guide Employee" , description = "Data service operations on rooms", tags=("rooms"))
+public class EmplyeeWebService {
 
 
     // getAll

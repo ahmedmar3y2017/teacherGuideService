@@ -78,6 +78,16 @@
             <version>2.6.1</version>
             <scope>compile</scope>
         </dependency>
+        <!-- tag::test[] -->
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
